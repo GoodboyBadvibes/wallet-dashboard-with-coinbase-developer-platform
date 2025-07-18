@@ -3,9 +3,9 @@ services:
     image: postgres:14
     restart: always
     environment:
-      POSTGRES_DB: seeds
-      POSTGRES_USER: admin
-      POSTGRES_PASSWORD: password
+      POSTGRES_DB: neondb
+      POSTGRES_USER: neondb_owner
+      POSTGRES_PASSWORD: npg_S9YkEOsqTJG3
     ports:
       - "5432:5432"
     volumes:
